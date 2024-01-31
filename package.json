@@ -1,6 +1,6 @@
 {
   "name": "utilscord",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "It was created to make writing Discord bots faster and more convenient.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

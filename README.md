@@ -28,7 +28,7 @@ const editedName = captalize(name);
 
 console.log(editedName) // Output --> "Roman"
 ```
-More? Take a look at its [documentation](https://github.com/romanbaba/utilscord/tree/main/docs)!
+More? Take a look at its [documentation](https://github.com/romanbaba/utilscord/tree/master/docs)!
 
 ## 🐞 I found a bug!
 📱 If you want to reach me, you can reach me via [Discord](https://discord.gg/altyapilar)!
