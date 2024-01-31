@@ -1,0 +1,48 @@
+{
+  "name": "utilscord",
+  "version": "1.7.0",
+  "description": "It was created to make writing Discord bots faster and more convenient.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "cls && rimraf ./dist && tsc && prettier --write ./dist",
+    "update": "cls && ncu -u",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "eslint": "^8.56.0",
+    "prettier": "^2.8.8",
+    "rimraf": "^4.4.1",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "chalk": "^4.1.2",
+    "consola": "^3.2.3",
+    "discord.js": "^14.9.0",
+    "emoji-regex": "^10.3.0",
+    "sneaks": "^0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanbaba/utilscord.git"
+  },
+  "keywords": [
+    "discord",
+    "util",
+    "discordjs",
+    "toolkit",
+    "tool",
+    "extension",
+    "utility",
+    "utilities",
+    "extensions"
+  ],
+  "author": "Roman <romanbaba>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romanbaba/utilscord/issues"
+  },
+  "homepage": "https://github.com/romanbaba/utilscord#readme"
+}
